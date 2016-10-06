@@ -1,0 +1,451 @@
+@charset "UTF-8";
+@media screen and (max-width: 480px) {
+  html > div, body > div {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    overflow-x: hidden; }
+    html > div > header, body > div > header {
+      width: calc(100% - 20px);
+      height: 30px;
+      padding: 10px;
+      background-color: #bdaec6; }
+      html > div > header > section, body > div > header > section {
+        width: 100%;
+        height: 100%; }
+        html > div > header > section > h1, body > div > header > section > h1 {
+          width: 45px;
+          height: 35px;
+          float: left; }
+          html > div > header > section > h1 > a, body > div > header > section > h1 > a {
+            width: 100%;
+            height: 100%;
+            background-image: url(../img/logo.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            display: block; }
+        html > div > header > section > div, body > div > header > section > div {
+          width: 35px;
+          height: 20px;
+          float: right;
+          padding: 5px 0;
+          position: relative; }
+          html > div > header > section > div:hover, body > div > header > section > div:hover {
+            cursor: pointer; }
+          html > div > header > section > div > div, body > div > header > section > div > div {
+            width: 80%;
+            height: 3px;
+            border-radius: 2px;
+            background-color: #555;
+            margin: 0 auto; }
+          html > div > header > section > div > .menu_01, body > div > header > section > div > .menu_01 {
+            margin-top: 1px; }
+          html > div > header > section > div > .menu_02, body > div > header > section > div > .menu_02 {
+            margin-top: 4px; }
+          html > div > header > section > div > .menu_03, body > div > header > section > div > .menu_03 {
+            margin-top: 4px; }
+          html > div > header > section > div > nav, body > div > header > section > div > nav {
+            width: 60vw;
+            height: calc(100vh - 30px);
+            position: absolute;
+            right: -10px;
+            background-color: #c1dad6;
+            top: 40px;
+            display: none; }
+            html > div > header > section > div > nav > dl, body > div > header > section > div > nav > dl {
+              width: 100%;
+              margin-bottom: 5px; }
+              html > div > header > section > div > nav > dl > dt, body > div > header > section > div > nav > dl > dt {
+                width: 80%;
+                height: 8vw;
+                line-height: 11vw;
+                font-size: 0.9rem;
+                font-weight: bold;
+                margin-left: 18%; }
+              html > div > header > section > div > nav > dl > dd, body > div > header > section > div > nav > dl > dd {
+                width: 80%;
+                height: 5vw;
+                line-height: 5vw;
+                font-size: 0.825rem;
+                margin-left: 20%; }
+    html > div > div, body > div > div {
+      width: 100%;
+      height: auto; }
+      html > div > div > .banner, body > div > div > .banner {
+        width: 100%;
+        height: 55vw;
+        position: relative; }
+        html > div > div > .banner > .banner_box, body > div > div > .banner > .banner_box {
+          width: 400%;
+          height: 100%;
+          overflow: hidden;
+          position: absolute; }
+          html > div > div > .banner > .banner_box > .banner_01, body > div > div > .banner > .banner_box > .banner_01 {
+            background-image: url(../img/img_0001.jpg); }
+          html > div > div > .banner > .banner_box > .banner_02, body > div > div > .banner > .banner_box > .banner_02 {
+            background-image: url(../img/img_0002.jpg); }
+          html > div > div > .banner > .banner_box > .banner_03, body > div > div > .banner > .banner_box > .banner_03 {
+            background-image: url(../img/img_0003.jpg); }
+          html > div > div > .banner > .banner_box > .banner_04, body > div > div > .banner > .banner_box > .banner_04 {
+            background-image: url(../img/img_0004.jpg); }
+          html > div > div > .banner > .banner_box > li, body > div > div > .banner > .banner_box > li {
+            width: 25%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            float: left; }
+            html > div > div > .banner > .banner_box > li > a, body > div > div > .banner > .banner_box > li > a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+              html > div > div > .banner > .banner_box > li > a > span, body > div > div > .banner > .banner_box > li > a > span {
+                width: 0;
+                height: 0;
+                display: block;
+                overflow: hidden; }
+        html > div > div > .banner > .btn_box, body > div > div > .banner > .btn_box {
+          width: 100%;
+          height: 30%;
+          position: absolute;
+          top: 33%; }
+          html > div > div > .banner > .btn_box > button, body > div > div > .banner > .btn_box > button {
+            background-color: transparent;
+            color: #fff;
+            font-size: 14vw;
+            opacity: 0.6;
+            cursor: pointer; }
+            html > div > div > .banner > .btn_box > button:nth-child(1), body > div > div > .banner > .btn_box > button:nth-child(1) {
+              float: left;
+              margin-left: 5px; }
+            html > div > div > .banner > .btn_box > button:nth-child(2), body > div > div > .banner > .btn_box > button:nth-child(2) {
+              float: right;
+              margin-right: 5px; }
+        html > div > div > .banner > .indicator, body > div > div > .banner > .indicator {
+          width: 150px;
+          height: 30px;
+          background-color: #ad3;
+          position: absolute;
+          bottom: 4%;
+          left: calc(50% - 75px); }
+          html > div > div > .banner > .indicator > a, body > div > div > .banner > .indicator > a {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+            text-align: center;
+            text-decoration: none; }
+          html > div > div > .banner > .indicator > .active, body > div > div > .banner > .indicator > .active {
+            cursor: default; }
+          html > div > div > .banner > .indicator > .active:before, body > div > div > .banner > .indicator > .active:before {
+            margin-left: -100px; }
+      html > div > div > .icon, body > div > div > .icon {
+        width: 100%;
+        height: 30vw;
+        background-color: #bdaec6; }
+        html > div > div > .icon > ul, body > div > div > .icon > ul {
+          width: 100%;
+          height: 100%; }
+          html > div > div > .icon > ul > li, body > div > div > .icon > ul > li {
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+            float: left;
+            background-color: #443266;
+            margin-left: 3.5vw;
+            margin-top: 5vw; }
+            html > div > div > .icon > ul > li > a, body > div > div > .icon > ul > li > a {
+              width: 100%;
+              height: 100%;
+              display: block;
+              text-align: center;
+              text-decoration: none;
+              line-height: 21vw;
+              font-size: 0.803rem;
+              font-family: "배달의민족 도현";
+              color: #fff; }
+      html > div > div > .infor, body > div > div > .infor {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 0.8rem;
+        background-color: #fff;
+        padding: 10vw 0; }
+        html > div > div > .infor > span, body > div > div > .infor > span {
+          width: 16px;
+          height: 3px;
+          display: block;
+          background-color: #333;
+          margin-left: calc(50% - 8px);
+          margin-bottom: 1rem; }
+        html > div > div > .infor > h3, body > div > div > .infor > h3 {
+          width: 100%;
+          height: auto;
+          display: block;
+          font-size: 1.25rem;
+          margin-bottom: 1rem;
+          color: #333; }
+        html > div > div > .infor > h4, body > div > div > .infor > h4 {
+          width: 100%;
+          height: auto;
+          display: block;
+          font-size: 0.8rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+          color: #333; }
+        html > div > div > .infor > p, body > div > div > .infor > p {
+          line-height: 1.125rem;
+          color: #333; }
+      html > div > div > .body_box, body > div > div > .body_box {
+        display: none; }
+    html > div > footer, body > div > footer {
+      width: 100%;
+      height: auto;
+      background-color: #333;
+      padding: 20px 0 10px; }
+      html > div > footer > section, body > div > footer > section {
+        width: 100%;
+        height: auto; }
+        html > div > footer > section > .footer_logo, body > div > footer > section > .footer_logo {
+          width: 30%;
+          height: 70px;
+          background-image: url(../img/main_logo_02.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: contain;
+          margin: 0 auto;
+          opacity: 0.3;
+          margin-bottom: 5vw; }
+        html > div > footer > section > .footer_info, body > div > footer > section > .footer_info {
+          width: 100%;
+          height: auto; }
+          html > div > footer > section > .footer_info > dl, body > div > footer > section > .footer_info > dl {
+            width: 100%;
+            height: 20px; }
+            html > div > footer > section > .footer_info > dl > dt, body > div > footer > section > .footer_info > dl > dt {
+              width: auto;
+              height: 15px;
+              color: #ccc;
+              font-size: 0.9rem;
+              font-weight: bold;
+              float: left; }
+            html > div > footer > section > .footer_info > dl > dd, body > div > footer > section > .footer_info > dl > dd {
+              width: auto;
+              height: 15px;
+              color: #ccc;
+              font-size: 0.85rem;
+              float: left;
+              text-align: center; }
+      html > div > footer > div, body > div > footer > div {
+        width: 100%;
+        height: auto;
+        margin-top: 10px; }
+        html > div > footer > div > p, body > div > footer > div > p {
+          width: 100%;
+          height: 100%;
+          font-size: 0.8rem;
+          color: #777;
+          text-align: center; } }
+@media screen and (min-width: 961px) {
+  html, body {
+    width: 100%; }
+    html > div, body > div {
+      width: 100%;
+      height: 100vh;
+      background-color: #fff; }
+      html > div > header, body > div > header {
+        width: 100%;
+        height: 7vw; }
+        html > div > header > section, body > div > header > section {
+          width: calc(960px - 40px);
+          height: calc(100% - 2.5vw);
+          padding: 2.5vw 20px 0;
+          margin: 0 auto; }
+          html > div > header > section > h1, body > div > header > section > h1 {
+            width: 12vw;
+            height: 60px;
+            float: left; }
+            html > div > header > section > h1 > a, body > div > header > section > h1 > a {
+              width: 100%;
+              height: 100%;
+              background-image: url(../img/m_logo.png);
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-size: contain;
+              display: block; }
+          html > div > header > section > div, body > div > header > section > div {
+            width: 53%;
+            height: auto;
+            float: right; }
+            html > div > header > section > div > div, body > div > header > section > div > div {
+              display: none; }
+            html > div > header > section > div > nav, body > div > header > section > div > nav {
+              width: 100%;
+              margin-top: 30px;
+              float: right; }
+              html > div > header > section > div > nav > dl, body > div > header > section > div > nav > dl {
+                float: left;
+                margin-left: 4%; }
+                html > div > header > section > div > nav > dl > dt > a, body > div > header > section > div > nav > dl > dt > a {
+                  text-decoration: none;
+                  color: #555;
+                  font-family: 'NanumBarunGothic';
+                  font-weight: bold;
+                  font-size: 0.915rem; }
+                html > div > header > section > div > nav > dl > dd, body > div > header > section > div > nav > dl > dd {
+                  display: none; }
+                  html > div > header > section > div > nav > dl > dd > a, body > div > header > section > div > nav > dl > dd > a {
+                    text-decoration: none; }
+      html > div > div, body > div > div {
+        width: 100%;
+        height: auto; }
+        html > div > div > .banner, body > div > div > .banner {
+          width: 100%;
+          height: 30vw;
+          position: relative;
+          overflow: hidden; }
+          html > div > div > .banner > .banner_box, body > div > div > .banner > .banner_box {
+            width: 400%;
+            height: 100%;
+            position: absolute; }
+            html > div > div > .banner > .banner_box > .banner_01, body > div > div > .banner > .banner_box > .banner_01 {
+              background-image: url(../img/img_0001.jpg); }
+            html > div > div > .banner > .banner_box > .banner_02, body > div > div > .banner > .banner_box > .banner_02 {
+              background-image: url(../img/img_0002.jpg); }
+            html > div > div > .banner > .banner_box > .banner_03, body > div > div > .banner > .banner_box > .banner_03 {
+              background-image: url(../img/img_0003.jpg); }
+            html > div > div > .banner > .banner_box > .banner_04, body > div > div > .banner > .banner_box > .banner_04 {
+              background-image: url(../img/img_0004.jpg); }
+            html > div > div > .banner > .banner_box > li, body > div > div > .banner > .banner_box > li {
+              width: 25%;
+              height: 100%;
+              background-repeat: no-repeat;
+              background-position: center center;
+              background-size: cover;
+              float: left; }
+              html > div > div > .banner > .banner_box > li > a, body > div > div > .banner > .banner_box > li > a {
+                width: 100%;
+                height: 100%;
+                display: block; }
+                html > div > div > .banner > .banner_box > li > a > span, body > div > div > .banner > .banner_box > li > a > span {
+                  width: 0;
+                  height: 0;
+                  display: block;
+                  overflow: hidden; }
+          html > div > div > .banner > .btn_box, body > div > div > .banner > .btn_box {
+            width: 100%;
+            height: 90px;
+            position: absolute;
+            top: calc(50% - 45px);
+            z-index: 100; }
+            html > div > div > .banner > .btn_box > button, body > div > div > .banner > .btn_box > button {
+              width: 56px;
+              height: 100%;
+              color: #fff;
+              font-size: 4.5rem;
+              cursor: pointer;
+              background-color: transparent; }
+              html > div > div > .banner > .btn_box > button:nth-child(1), body > div > div > .banner > .btn_box > button:nth-child(1) {
+                float: left;
+                margin-left: 20px; }
+              html > div > div > .banner > .btn_box > button:nth-child(2), body > div > div > .banner > .btn_box > button:nth-child(2) {
+                float: right;
+                margin-right: 20px; }
+          html > div > div > .banner > .indicator, body > div > div > .banner > .indicator {
+            width: 200px;
+            height: 60px;
+            background-color: #ad3;
+            position: absolute;
+            bottom: 3%;
+            left: calc(50% - 100px); }
+            html > div > div > .banner > .indicator > a, body > div > div > .banner > .indicator > a {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              margin-left: 5px;
+              margin-right: 5px;
+              text-align: center;
+              text-decoration: none; }
+            html > div > div > .banner > .indicator > .active, body > div > div > .banner > .indicator > .active {
+              cursor: default; }
+            html > div > div > .banner > .indicator > .active:before, body > div > div > .banner > .indicator > .active:before {
+              margin-left: -100px; }
+        html > div > div > .icon, body > div > div > .icon {
+          display: none; }
+        html > div > div > .infor, body > div > div > .infor {
+          width: 100%;
+          height: auto;
+          text-align: center;
+          font-size: 0.8rem;
+          background-color: #fff;
+          padding: 3vw 0; }
+          html > div > div > .infor > span, body > div > div > .infor > span {
+            width: 16px;
+            height: 3px;
+            display: block;
+            background-color: #333;
+            margin-left: calc(50% - 8px);
+            margin-bottom: 1.8rem; }
+          html > div > div > .infor > h3, body > div > div > .infor > h3 {
+            width: 100%;
+            height: auto;
+            display: block;
+            font-size: 1.4rem;
+            margin-bottom: 1.8rem;
+            color: #333; }
+          html > div > div > .infor > h4, body > div > div > .infor > h4 {
+            width: 100%;
+            height: auto;
+            display: block;
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #333; }
+          html > div > div > .infor > p, body > div > div > .infor > p {
+            line-height: 1.2rem;
+            color: #333; }
+        html > div > div > .body_box, body > div > div > .body_box {
+          width: calc(960px - 3%);
+          height: 18.5vw;
+          margin: 0 auto;
+          background-color: #cdcdcd;
+          padding: 1.5%; }
+          html > div > div > .body_box > article, body > div > div > .body_box > article {
+            width: calc(94% / 3);
+            height: 17vw;
+            float: left;
+            background-color: #aaa; }
+            html > div > div > .body_box > article:nth-child(1), body > div > div > .body_box > article:nth-child(1) {
+              margin-right: 3%; }
+              html > div > div > .body_box > article:nth-child(1) > a > div, body > div > div > .body_box > article:nth-child(1) > a > div {
+                background-image: url(../img/logo.png);
+                background-size: 40%; }
+            html > div > div > .body_box > article:nth-child(2), body > div > div > .body_box > article:nth-child(2) {
+              margin-right: 3%; }
+            html > div > div > .body_box > article > a, body > div > div > .body_box > article > a {
+              width: 100%;
+              height: 100%;
+              display: block;
+              text-decoration: none; }
+              html > div > div > .body_box > article > a > div, body > div > div > .body_box > article > a > div {
+                width: 100%;
+                height: 61.5%;
+                background-color: #fff;
+                background-repeat: no-repeat;
+                background-position: center center; }
+                html > div > div > .body_box > article > a > div > span, body > div > div > .body_box > article > a > div > span {
+                  width: 0;
+                  height: 0;
+                  display: block;
+                  overflow: hidden; }
+              html > div > div > .body_box > article > a > h2, body > div > div > .body_box > article > a > h2 {
+                width: 100%;
+                height: auto; }
+      html > div > footer > section, body > div > footer > section {
+        width: 100%;
+        height: 300px;
+        background-color: #333; } }
+
+/*# sourceMappingURL=main_2.css.map */
