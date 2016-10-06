@@ -410,16 +410,16 @@
           width: calc(960px - 3%);
           height: 18.5vw;
           margin: 0 auto;
-          background-color: #cdcdcd;
           padding: 1.5%; }
           html > div > div > .body_box > article, body > div > div > .body_box > article {
             width: calc(94% / 3);
             height: 17vw;
             float: left;
-            background-color: #aaa; }
+            border: 1px solid #777;
+            box-sizing: border-box; }
             html > div > div > .body_box > article:nth-child(1), body > div > div > .body_box > article:nth-child(1) {
               margin-right: 3%; }
-              html > div > div > .body_box > article:nth-child(1) > a > div, body > div > div > .body_box > article:nth-child(1) > a > div {
+              html > div > div > .body_box > article:nth-child(1) > a > .img_box, body > div > div > .body_box > article:nth-child(1) > a > .img_box {
                 background-image: url(../img/logo.png);
                 background-size: 40%; }
             html > div > div > .body_box > article:nth-child(2), body > div > div > .body_box > article:nth-child(2) {
@@ -429,23 +429,78 @@
               height: 100%;
               display: block;
               text-decoration: none; }
-              html > div > div > .body_box > article > a > div, body > div > div > .body_box > article > a > div {
+              html > div > div > .body_box > article > a > .img_box, body > div > div > .body_box > article > a > .img_box {
                 width: 100%;
                 height: 61.5%;
                 background-color: #fff;
                 background-repeat: no-repeat;
                 background-position: center center; }
-                html > div > div > .body_box > article > a > div > span, body > div > div > .body_box > article > a > div > span {
+                html > div > div > .body_box > article > a > .img_box > span, body > div > div > .body_box > article > a > .img_box > span {
                   width: 0;
                   height: 0;
                   display: block;
                   overflow: hidden; }
-              html > div > div > .body_box > article > a > h2, body > div > div > .body_box > article > a > h2 {
+              html > div > div > .body_box > article > a > .text_box, body > div > div > .body_box > article > a > .text_box {
                 width: 100%;
-                height: auto; }
-      html > div > footer > section, body > div > footer > section {
+                height: calc(38.5% - 10px);
+                background-color: #ccc;
+                padding-top: 10px; }
+                html > div > div > .body_box > article > a > .text_box > h2, body > div > div > .body_box > article > a > .text_box > h2 {
+                  width: auto;
+                  height: auto;
+                  color: #fff;
+                  margin-left: 5px; }
+      html > div > footer, body > div > footer {
         width: 100%;
-        height: 300px;
-        background-color: #333; } }
+        height: 260px;
+        background-color: #333; }
+        html > div > footer > section, body > div > footer > section {
+          width: calc(960px - 40px);
+          height: 230px;
+          padding-top: 10px;
+          margin: 0 auto; }
+          html > div > footer > section > .footer_logo, body > div > footer > section > .footer_logo {
+            width: 8%;
+            height: 90px;
+            background-image: url(../img/main_logo_02.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            margin: 0 auto;
+            opacity: 0.3;
+            margin-bottom: 0.3vw; }
+          html > div > footer > section > .footer_info, body > div > footer > section > .footer_info {
+            width: 100%;
+            height: auto; }
+            html > div > footer > section > .footer_info > dl, body > div > footer > section > .footer_info > dl {
+              width: auto;
+              height: 20px;
+              text-align: center;
+              margin: 0 auto;
+              margin-bottom: 7px; }
+              html > div > footer > section > .footer_info > dl > dt, body > div > footer > section > .footer_info > dl > dt {
+                width: auto;
+                height: 15px;
+                color: #ccc;
+                font-size: 1.12rem;
+                font-weight: bold;
+                float: left; }
+              html > div > footer > section > .footer_info > dl > dd, body > div > footer > section > .footer_info > dl > dd {
+                width: auto;
+                height: 15px;
+                color: #ccc;
+                font-size: 1.1rem;
+                float: left;
+                text-align: center; }
+        html > div > footer > div, body > div > footer > div {
+          width: calc(960px - 40px);
+          height: auto;
+          margin: 0 auto; }
+          html > div > footer > div > p, body > div > footer > div > p {
+            width: 100%;
+            height: 100%;
+            font-size: 0.8rem;
+            color: #777;
+            text-align: center; } }
 
-/*# sourceMappingURL=main_2.css.map */
+/*# sourceMappingURL=index.css.map */
